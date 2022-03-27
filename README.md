@@ -10,4 +10,4 @@
 
 ### ✅ DEMO
 
-- Executar `./mvn spring-boot:run` na raiz do projeto.
+- Executar `./mvnw spring-boot:run` na raiz do projeto.
