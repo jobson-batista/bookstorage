@@ -58,6 +58,14 @@
 			<artifactId>spring-boot-starter-actuator</artifactId>
 			<version>2.6.5</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/pl.project13.maven/git-commit-id-plugin -->
+		<dependency>
+			<groupId>pl.project13.maven</groupId>
+			<artifactId>git-commit-id-plugin</artifactId>
+			<version>4.9.10</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -73,6 +81,10 @@
 						</exclude>
 					</excludes>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>pl.project13.maven</groupId>
+				<artifactId>git-commit-id-plugin</artifactId>
 			</plugin>
 		</plugins>
 	</build>
