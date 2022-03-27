@@ -9,12 +9,12 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jobson</groupId>
-	<artifactId>booksstoremanager</artifactId>
+	<artifactId>bookstoremanager</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>booksstoremanager</name>
+	<name>bookstoremanager</name>
 	<description>Bookstore Manager Project</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
