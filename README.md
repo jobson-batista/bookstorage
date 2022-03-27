@@ -4,6 +4,9 @@
 ### ✅ Status do Projeto
 <h4 align="center"> 🚧 Em desenvolvimento ... 🚧 </h4>
 
+### ✅ Requisitos para rodar o projeto
+- [JDK 17](https://www.oracle.com/java/technologies/downloads/) 
+
 ### ✅ Features
 
 - [x] Documentação da API usando o Swagger
