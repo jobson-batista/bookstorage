@@ -1,6 +1,7 @@
 package com.jobson.bookstoremanager.author.entity;
 
 import com.jobson.bookstoremanager.books.entity.Book;
+import com.jobson.bookstoremanager.entity.Auditable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -12,7 +13,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-public class Author {
+public class Author extends Auditable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
